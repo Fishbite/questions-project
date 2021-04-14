@@ -1,4 +1,8 @@
 //using selectors inside the element
+// Note: this method negates having to
+// traverse the entire DOM to select
+// the elements that we need
+
 // select all items that are questions
 const questions = document.querySelectorAll(".question");
 
